@@ -842,11 +842,11 @@
         var wasVertical = this.isVertical();
 
         switch ( edge ) {
-            case 'left'   : this.topEdge = EDGE.Left;   break;
+            case 'left'   : this.topEdge = EDGE.Top;   break;
             case 'bottom' : this.topEdge = EDGE.Bottom; break;
             case 'right'  : this.topEdge = EDGE.Right;  break;
             case 'top'    :
-            default       : this.topEdge = EDGE.Top;    break;
+            default       : this.topEdge = EDGE.Left;    break;
         }
 
         if ( wasVertical !== this.isVertical() ) { this.setOptions(); }
