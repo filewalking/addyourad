@@ -134,7 +134,7 @@
         }
         $.extend( flagWaverOpts.flag, flagWaverDefaults.flag, flagOpts );
         setFlagOpts( {
-            imgSrc : flagWaverOpts.flag.imgURL || 'img/NZ.2b.png',
+            imgSrc : flagWaverOpts.flag.imgURL || 'img/cpit.png',
             topEdge : flagWaverOpts.flag.topEdge,
             hoisting : flagWaverOpts.flag.hoisting
         } );
